@@ -44,6 +44,14 @@ form{
   font-size: 100px;
 }
 
+ #click a{
+ color:#E4E3D3;
+ }
+
+ #click :hover a{
+ color:#2E2D4D;
+ }
+
  @media only screen and (min-width: 992px) and (max-width: 1999px){
 
    #message{
