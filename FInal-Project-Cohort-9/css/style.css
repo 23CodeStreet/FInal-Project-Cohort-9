@@ -1,0 +1,223 @@
+/*Applies to everything*/
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  color: #2E2D4D;
+}
+a {
+text-decoration: none !important;
+}
+/*Applies to everything*/
+
+
+/* -------- Media Queries -------*/
+
+/* 1em(16px) @ 25em(400px) increasing to 3em(48px) @ 120em(1920px) */
+@media (min-width: 25em) {
+  :root {
+    font-size: calc(1rem + ((1vw - 0.25em) * 2.1053));
+    /* Where: * 2.1053 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 120em) {
+  :root {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #logo {width: 20%}
+}
+
+/* -------- Media Queries -------*/
+
+
+/* -------- Home Page -------*/
+#logo{
+  width: 35%;
+  padding: 2%;
+}
+#logobackground{
+    background-color: #2E2D4D;
+    max-width: auto;
+}
+.grouppic{
+  max-width: auto;
+  width:100%;
+}
+#navbar{
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: right;
+ }
+nav a{
+  color: #2E2D4D;
+  text-align: centre;
+  position:right;
+  padding: 20px 20px;
+  margin-right: 4%;
+  font-weight: bold;
+}
+nav a:hover {
+   background-color: #2E2D4D;
+   color: white;
+ }
+ #intro{
+     font-color:#2E2D4D;
+     font-weight: bold;
+     text-align: center;
+     letter-spacing: 1px;
+     padding: 2%;
+ }
+ button {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    border:none;
+    width: 50%;
+    height: 25%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:auto;
+    display: block;
+    border-radius: 25px;
+    margin-bottom:2%;
+ }
+ #chatbutton {
+   background-color: #2E2D4D;
+ }
+ #chatbutton:hover {
+   background-color: #E4E3D3;
+   color: #2E2D4D;
+ }
+ #meetbutton {
+   background-color: #2E2D4D;
+ }
+ #meetbutton:hover {
+   background-color: #E4E3D3;
+   color: #2E2D4D;
+ }
+ footer{
+  clear: both;
+  padding: 1em;
+  color: white;
+  background-color: #2E2D4D;
+  margin-top: 2%;
+  text-align: center;
+ }
+  /* -------- Home Page -------*/
+
+
+  /* ------  About us ----------*/
+#topsection{
+  background-color: #2E2D4D;
+  max-width: auto;
+  height: 1.5em;
+}
+  #team_photo{
+    max-width: auto;
+    width:50%;
+    float: left;
+  }
+  #aboutus_p{
+    text-align: justify;
+    font-size: .75rem;
+    padding: 5%;
+    display: inline-block;
+    float: right;
+    max-width: 40%;
+  }
+  #aboutus_f{
+    text-align: center;
+  }
+  /* ------  About us ----------*/
+
+
+  /* ------  Have a Chat ----------*/
+
+  section {
+    margin: 3em;
+    text-align: center;
+  }
+
+  h1{
+   font-weight: bold;
+   font-size: 1.25em;
+   padding:.5em;
+   text-align: center;
+   }
+
+  h2{
+    font-weight: bold;
+  }
+
+  p{
+    padding:.5em;
+   }
+
+#findoutmorebutton{
+  background-color: #2E2D4D;
+  font-size: .75em;
+  padding:1em;
+}
+#findoutmorebutton:hover {
+  background-color: #E4E3D3;
+  color: #2E2D4D;
+}
+
+  /* ------  Have a Chat ----------*/
+
+
+  /* ------  Meet ----------*/
+
+  input {
+   text-align:center;
+   text-transform:uppercase;
+   padding:.5em;
+   font-size:0.8em;
+   border:solid 2px #2E2D4D;
+   color:#111;
+   margin: 1em;
+ }
+
+   #gotoresults {
+   background-color: #2E2D4D;
+ }
+
+   #gotoresults:hover {
+   background-color: #E4E3D3;
+   color: #2E2D4D;
+ }
+
+  #findsection{
+  align-items: center;
+}
+
+  #postcode{
+  border-radius: 25px
+}
+
+  /* ------  Meet ----------*/
+
+
+  /* ------  Results Page ----------*/
+
+  button.btn_result {
+  background-color: #2E2D4D;
+}
+
+  button.btn_result:hover {
+  background-color: #E4E3D3;
+  color: #2E2D4D;
+}
+  /* ------  Results Page ----------*/
+
+  /* ------  Contact Page ----------*/
+
+input{
+  border-radius: 25px
+}
+
+  /* ------  Contact Page ----------*/
