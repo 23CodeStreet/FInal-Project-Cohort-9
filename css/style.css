@@ -3,6 +3,7 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   color: #00151d;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -351,3 +352,19 @@ h1{
 /* -------- About Us Page -------*/
 
 /* -------- Meet Page -------*/
+#submit { display:block; text-transform:uppercase; background:#134c7e; border:solid 2px #95bbdc; width:150px; margin:10px auto; padding:8px; font-size:0.8em }
+
+ul {
+  list-style-type: none;
+}
+li {
+  background-color: #E4E3D3;
+  padding: 10px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
