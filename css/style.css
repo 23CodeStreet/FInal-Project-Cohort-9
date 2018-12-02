@@ -123,6 +123,7 @@ nav a:hover {
  /* ------About us ----------*/
  #team_photo{
    max-width: 100%;
+   margin-top: 1px;
  }
 
  #div_h1{
@@ -301,9 +302,9 @@ nav a:hover {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 500px;
-      height: 160px;
-      padding-top: 50px;
+      width: 420px;
+      height: 250px;
+      /* padding-top: 20px; */
 }
 
 .grouppic{
@@ -369,7 +370,8 @@ nav a:hover {
 #team_photo{
   max-width: 50%;
   float:left;
-  /*height: 600px;*/
+  margin-top: 27px;
+  height: 600px;
 }
 #aboutus_p{
   padding: 5%;
